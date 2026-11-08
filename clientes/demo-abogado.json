@@ -1,0 +1,42 @@
+{
+  "id": "demo-abogado",
+  "activo": true,
+  "perfil": "abogado",
+  "whatsapp": {
+    "phoneNumberId": "YOUR_PHONE_NUMBER_ID",
+    "tokenEnv": "WHATSAPP_TOKEN"
+  },
+  "avisos": [],
+  "avisarRevisar": true,
+  "negocio": {
+    "nombre": "Bufete Demo Accidentes Miami",
+    "direccion": "123 Demo Ave, Miami, FL 33130",
+    "telefono": "(305) 555-0199",
+    "horario": "Atendemos por WhatsApp 24/7. Oficina: lunes a viernes 9:00am - 6:00pm",
+    "areas": "Accidentes de auto, moto, camión, Uber/Lyft y peatones",
+    "costo": "La consulta es gratis. Si el bufete toma el caso, no se cobra nada a menos que se gane.",
+    "idiomas": "Español e inglés"
+  },
+  "criterios": {
+    "califica": [
+      "El accidente fue en Florida",
+      "Pasó hace 14 días o menos",
+      "La persona tiene lesiones o dolor por el accidente",
+      "La persona no causó el accidente (fue el otro conductor, o la culpa no está clara)",
+      "Todavía no tiene abogado para este accidente"
+    ],
+    "noCalifica": [
+      "Pasó hace más de 30 días",
+      "No tuvo ninguna lesión ni dolor (solo daños al carro)",
+      "La persona claramente causó el accidente (por ejemplo, a ella le dieron la multa)",
+      "Ya tiene abogado para este accidente",
+      "El accidente fue fuera de Florida",
+      "No es un accidente de tránsito"
+    ],
+    "revisar": [
+      "Pasó entre 15 y 30 días atrás",
+      "No sabe la fecha, o no queda claro quién tuvo la culpa y faltan datos",
+      "La persona no quiso responder preguntas importantes"
+    ]
+  }
+}

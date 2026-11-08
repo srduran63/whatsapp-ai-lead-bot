@@ -1,0 +1,47 @@
+{
+  "id": "demo-taller",
+  "activo": false,
+  "perfil": "taller",
+  "whatsapp": {
+    "phoneNumberId": "YOUR_PHONE_NUMBER_ID",
+    "tokenEnv": "WHATSAPP_TOKEN"
+  },
+  "avisos": [],
+  "avisarRevisar": true,
+  "negocio": {
+    "nombre": "Demo Collision Center",
+    "direccion": "456 Demo St, Miami, FL 33142",
+    "telefono": "(305) 555-0100",
+    "horario": "Lunes a viernes 8:00am - 6:00pm, sábados 9:00am - 2:00pm, domingos cerrado",
+    "servicios": [
+      "Reparación de colisión y carrocería",
+      "Pintura (igualamos el color de fábrica)",
+      "Enderezado de chasis",
+      "Reparación de abolladuras sin pintura (PDR)",
+      "Cambio de parabrisas y vidrios",
+      "Estimados gratis"
+    ],
+    "seguros": "Trabajamos con todas las aseguradoras (GEICO, Progressive, State Farm, Allstate, USAA, etc.) y también con clientes que pagan por su cuenta.",
+    "grua": "Podemos coordinar grúa si el carro no se puede manejar.",
+    "carroRenta": "Ayudamos a coordinar carro de renta si tu seguro lo cubre.",
+    "garantia": "Garantía de por vida en pintura y trabajos de carrocería mientras seas el dueño del carro.",
+    "idiomas": "Español e inglés"
+  },
+  "criterios": {
+    "califica": [
+      "Su carro tiene daños de choque o carrocería que el taller repara (ver servicios)",
+      "Vive o puede traer el carro al área de Miami",
+      "Quiere un estimado o agendar una cita"
+    ],
+    "noCalifica": [
+      "Solo necesita mecánica (motor, frenos, transmisión, aire acondicionado, cambio de aceite) y no carrocería",
+      "Está fuera del área de Miami y no puede traer el carro",
+      "Solo quiere un precio exacto por mensaje y no quiere estimado en persona ni por fotos",
+      "Está vendiendo algo, buscando empleo o escribió por otro tema"
+    ],
+    "revisar": [
+      "No queda claro qué tipo de daño tiene",
+      "No quiso dar sus datos o el día para traer el carro"
+    ]
+  }
+}
